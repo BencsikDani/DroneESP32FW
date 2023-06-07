@@ -23,9 +23,9 @@ char str[512];
 
 // Data variables
 uint8_t Throttle[5];
-uint8_t Yaw;
-uint8_t Pitch;
-uint8_t Roll;
+int8_t Yaw;
+int8_t Pitch;
+int8_t Roll;
 uint8_t SWA;
 uint8_t SWB;
 uint8_t SWC;
